@@ -29,6 +29,7 @@ CSS3
 [네이버 클라우드](https://www.ncloud.com/) 서버를 사용함. 
 
 서버 사양:
+
 OS:Ubuntu 16.04
 
 CPU: 1vCPU
