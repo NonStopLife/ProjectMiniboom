@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="kr">
+<head>
+  <%- include ('../../../public/ejs-module/head.ejs') %>
+  <%# include ('../../../public/ejs-module/summernote-include-css-js.ejs') %>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script> <!-- 슬림에서 바꿈 at 2021-02-26 -->
+  <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+
+  <script src="./freeboardAddPoster.js?ver1"></script>
+  <script src="./summernote.js?ver1"></script>
+</head>
+  <body>
+<!--상단 네비게이션 바 -->
+  <%- include ('../../../public/ejs-module/header.ejs') %>
+<main class="container">
+  <div class="starter-template text-center py-5 px-3">
+    <h2>Freeboardwrite</h2>
+    <div class="mb-3">
+            <label for="InputTitle" class="form-label"><b>제목</b></label>
+            <input type="title" class="form-control" id="title" aria-describedby="freeboardtitle">
+          </div>
+          <div type="summernote" id="summernote" ></div>
+           <br>
+           <button type="submit" class="btn btn-primary" value="freeboardwirte" onclick="addPoster()">글 작성</button>
+  </div>
+</main><!-- /.container -->
+
+<!-- footer start-->
+<!-- <%# include('../ejs/footer.ejs'); %> -->
+<!-- footer end -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $('#summernote').summernote();
+  })
+  </script>
+</html>

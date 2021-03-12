@@ -1,0 +1,69 @@
+<!--상단 네비게이션 바 -->
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">미니붐</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">사이트 안내</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <!--
+        알림이 있을 경우 벨이 나오며 알림이 없을 경우 벨이 disabled 처리됨
+        -->
+          <%if (nickname) {%>
+          <li class="nav-item">
+            <a class="nav-link" href="#">🔔</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">🔔</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary btn-l" href="/logout"><%=nickname%></a>
+          </li>
+        </ul>
+        <!-- 검색 창 비활성화
+          <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      -->
+        <!--<a class="btn btn-primary btn-1" href="/signup">회원가입</a> -->
+
+        <% } else { %>
+          <li class="nav-item">
+            <a class="btn btn-primary btn-l" href="/login">로그인</a>
+          </li>
+        <%}%>
+        <!--li class="nav-item">
+          <a class="nav-link" href="#">🔔</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">🔔</a>
+        </li-->
+      </ul>
+      <!-- 검색 창 비활성화
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    -->
+    <!--<a class="btn btn-primary btn-1" href="/signup">회원가입</a> -->
+    </div>
+  </div>
+</nav>
+</header>

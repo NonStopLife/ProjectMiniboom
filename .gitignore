@@ -1,5 +1,5 @@
-# .c test
-*.c
+# important directory
+.key/
 
 # Logs
 logs
