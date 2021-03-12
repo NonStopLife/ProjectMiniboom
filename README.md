@@ -28,13 +28,10 @@
 
 서버 사양:
 
-OS:Ubuntu 16.04
-
-CPU: 1vCPU
-
-Memory: 1GB Memory
-
-HDD: 50GB
+* OS:Ubuntu 16.04
+* CPU: 1vCPU
+* Memory: 1GB Memory
+* HDD: 50GB
 
 
 # 2. 프로그램 특징
