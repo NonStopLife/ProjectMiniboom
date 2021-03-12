@@ -1,7 +1,7 @@
 # What is Miniboom? 미니붐이란?
 미니붐은 회원 및 회원가입을 하지 않은 모든 유저들에게 유용하게 사용될 수 있는 웹 커뮤니티 소프트웨어입니다.
 
-Miniboom is useful web site tool for anoynmus and member, any kind of user. 
+Miniboom is useful web community software for a anoynmus and logined member, any kind of user. 
 Mini is referred from two developers' name and boom is refered
 
 ## 미니붐의 어원
