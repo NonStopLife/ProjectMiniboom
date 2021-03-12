@@ -20,7 +20,7 @@
 소스코드 관리: Git, Github
 
 ## 1.2 개발 언어 및 프레임 워크
-[Node.js](https://nodejs.org/ko/"Node.js")
+[Node.js](https://nodejs.org/"Node.js")
 
 ## 1.3 개발 서버
 
