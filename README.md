@@ -1,4 +1,10 @@
-## What is Miniboom?
+# What is Miniboom? 미니붐이란?
+미니붐은 회원 및 회원가입을 하지 않은 모든 유저들에게 유용하게 사용될 수 있는 웹 커뮤니티 소프트웨어입니다.
+
+## 미니붐의 어원
+미니란 개발자 2명의 마지막 이름을 따와서 만들어졌습니다. 또한 붐은 폭탄의 의성어이며 폭탄은 작지만 큰 힘을 가지고 있습니다.
+
+이처럼 작은 시작으로 큰 파급력을 노리는 의미를 가지고 있습니다.
 Miniboom is useful web site tool for anoynmus and member, any kind of user.
 Mini is referred from two developers' name and boom is refered
 
