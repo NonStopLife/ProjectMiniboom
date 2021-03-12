@@ -25,8 +25,18 @@ Javascript
 HTML5
 CSS3
 
-## 1.3 개발 서버
-[네이버 클라우드](https://www.ncloud.com/)
+## 1.3 테스트 개발 서버
+[네이버 클라우드](https://www.ncloud.com/) 서버를 사용함. 
+
+서버 사양:
+OS:Ubuntu 16.04
+
+CPU: 1vCPU
+
+Memory: 1GB Memory
+
+HDD: 50GB
+
 
 # 2. 프로그램 특징
 본 웹사이트는 참여율을 증가 시키기 위해 비회원과 푸시알림 기능을 제공한다.
