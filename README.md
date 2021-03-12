@@ -20,10 +20,13 @@
 소스코드 관리: Git, Github
 
 ## 1.2 개발 언어 및 프레임 워크
-[Node.js](https://nodejs.org/"Node.js")
+[Node.js](https://nodejs.org/) 
+Javascript
+HTML5
+CSS3
 
 ## 1.3 개발 서버
-
+[네이버 클라우드](https://www.ncloud.com/)
 
 # 2. 프로그램 특징
 본 웹사이트는 참여율을 증가 시키기 위해 비회원과 푸시알림 기능을 제공한다.
